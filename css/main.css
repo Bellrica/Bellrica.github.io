@@ -1,0 +1,160 @@
+* {
+    outline: 1px solid #ff0000;
+}
+
+body {
+    background-color: #d8d8d8;
+    margin: 0;
+}
+
+
+header h1 {
+    margin:  0;
+    padding: 55px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-image: url("../img/toukyoueki-cut.jpg");
+    background-position: 50% 60%;
+}
+
+.header-nav {
+    background-color: #888;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-nav ul {
+    overflow: hidden;
+    width: 600px;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.header-nav li {
+    background-color: #fc8421;
+    list-style: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 35px 10px 35px;
+}
+
+.header-nav a {
+    color: #222222;
+    text-decoration: none;
+}
+
+#warapper h1 {
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto 20px auto;
+}
+
+.container h1 {
+    background-color: #fc8421;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contents {
+    background-color: #f3d8b7;
+    height: 400px;
+    display: flex;
+}
+
+.icon {
+    width: 200px;
+    height: 400px;
+    margin-left: 25px;
+}
+
+.icon img{
+    width: 192px;
+    margin: 100px 0;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #fc8421;
+}
+
+.info  {
+    width: 300px;
+    margin: 0 auto;
+    color: #222222;
+}
+
+.info h2 {
+    margin-top: 46px;
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 px 0;
+}
+
+.info ul {
+    margin: 0px 0px 30px 0;
+}
+
+.info li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #888;
+    padding: 10px 0;
+}
+
+.footer-nav {
+    background-color: #888;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer h1 {
+    background-color: #fc8421;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 0;
+    float: left;
+}
+
+.footer-nav ul {
+    margin: 10px ;
+    float: right;
+    padding-left: 0;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.footer-nav li {
+    background-color: #fc8421;
+    font-size: 20px;
+    float: left;
+    padding: 10px 40px 10px 35px;
+    list-style: none;
+}
+
+.footer-nav a {
+    color: #222222;
+    text-decoration: none;
+}
+
+footer p {
+    width: 600px;
+    font-size: 14px;
+    text-align: center;
+    color: #f5f3f3;
+    padding: 5px 0;
+    margin: auto;
+}
